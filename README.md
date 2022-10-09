@@ -1,2 +1,1 @@
-# E-Commerce-Database
-an E-commerce back-end built using MySQL and Sequelize
+# E-commerce Back End Starter Code
