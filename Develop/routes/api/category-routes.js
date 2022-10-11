@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     attributes: ['id', 'category_name'],
     include: [{
       model: Product,
-      attributes: ['product_name', 'price', 'stock']
+      attributes: ['id', 'product_name', 'price', 'stock']
     }
   ]
   }).then(dbCategoryData => res.json(dbCategoryData))
@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['product_name', 'price', 'stock']
+        attributes: ['id', 'product_name', 'price', 'stock']
 
       }
     ]
