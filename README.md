@@ -17,7 +17,7 @@
   ## Installation
   *Steps required to install project and how to get application running*
   
-  install the necessary node packages by running npm i
+  Clone the repo to your local machine and install the necessary node packages by running "npm i" in the command-line. Run mysql in the command-line and "source db/schema.sql;" to create the database.  Quit mysql and run "npm run seed" to populate the database and then launch the server with "npm start."
 
   ## Usage
   *Instructions and examples for use:*
