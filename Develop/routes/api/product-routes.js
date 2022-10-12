@@ -3,22 +3,22 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
 
-// get all products
+
 router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   Product.findAll({
-    attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+    attributes: ['id', 'product_name'],
     include: [
       {
         model: Category, 
-        attributes: ['id', 'category_name']
+        attributes: ['category_name']
       },
       {
         model: Tag,
-        attributes: ['id', 'tag_name'],
+        //attributes: ['tag_name'],
         through: ProductTag,
-        as: 'products_tag'
+        // as: 'products_tag'
       }
     ]
   })
@@ -45,9 +45,9 @@ router.get('/:id', (req, res) => {
       },
       {
         model: Tag,
-        attributes: ['id', 'tag_name'],
+       // attributes: ['id', 'tag_name'],
         through: ProductTag,
-        as: 'products_tag'
+       // as: 'product_tag'
       }
     ]
   })
