@@ -22,7 +22,11 @@
   ## Usage
   *Instructions and examples for use:*
 
-  This project can be utilized with Ecommerce frontend applications or configured to work for your specialized Ecommerce application..
+  This project can be utilized with Ecommerce frontend applications or configured to work for your specialized Ecommerce application.
+  
+  Link to video of app in use: 
+  
+  https://drive.google.com/file/d/11KUjikd3MdyXIE1HrmtcUjyW7ccvxvSV/view
 
   ## Contributing
   *Please follow these guidelines if you would like to contribute:*
@@ -46,7 +50,7 @@
  
   GitHub: [DaneCronin](https://github.com/DaneCronin)
 
-  Email: danecronin@gmail.cmo
+  Email: danecronin@gmail.com
 
   Link to repo on GitHub: https://github.com/DaneCronin/E-Commerce-database
 
